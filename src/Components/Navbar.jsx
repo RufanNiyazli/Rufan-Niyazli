@@ -23,7 +23,7 @@ function Navbar() {
     if (targetElement) {
       window.scrollTo({
         top: targetElement.offsetTop - 45,
-        behavior: "smooth",
+        behavior: "smooth"
       });
     }
   };

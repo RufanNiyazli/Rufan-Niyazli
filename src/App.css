@@ -39,9 +39,9 @@ header {
   width: 100%;
   height: 70px;
   backdrop-filter: blur(40%);
-  position: fixed; /* Burada 'fixed' olmalıdır */
-  top: 0; /* Sayfanın üst hissəsinə yerləşdirmək üçün */
-  left: 0; /* Sol tərəfə yerləşdirmək üçün */
+  position: fixed;
+  top: 0;
+  left: 0;
   right: 0;
   padding: 0px 0px;
   z-index: 10;
@@ -95,7 +95,14 @@ header ul a:hover {
 .main_navbar.hidden {
   transform: translateY(-100%);
 }
+
+
+
+
+
 /* /*/
+
+/* / */
 .hero {
   width: 100%;
   height: calc(100vh - 150px);
