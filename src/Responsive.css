@@ -1,430 +1,102 @@
-@media screen and (min-width: 100px) and (max-width: 1400px) {
-  .hero-img {
-    width: 30%;
-    height: 90%;
-  }
-  .hero-text {
-    margin-left: 250px;
-  }
-  .hero-button {
-    margin-top: 100px;
-  }
-
-  .header {
-    &::after,
-    &::before {
-      position: absolute;
-
-      content: "";
-      width: 35%;
-      transform: translate(0, 1200%);
-    }
-  }
-  /*  */
-  #about {
-    margin-top: 90px;
-  }
-  .about-text {
-    width: 70%;
-  }
-}
-@media screen and (min-width: 800px) and (max-width: 1000px) {
-  .navbar h2 {
-    display: none;
-  }
-  .navbar ul {
-    width: 65%;
-  }
-  /*  */
-  .hero-img {
-    display: none;
-  }
-  .hero {
-    height: calc(100vh - 250px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 0px;
-  }
-  .hero-text {
-    margin-left: 0;
-  }
-  .hero-button {
-    margin-top: 100px;
-  }
-
-  .header {
-    &::after,
-    &::before {
-      position: absolute;
-
-      content: "";
+/* Responsive Design */
+@media screen and (max-width: 1400px) {
+    .hero-img {
       width: 30%;
-      transform: translate(0, 1200%);
+      height: 90%;
+    }
+    .hero-text {
+      margin-left: 250px;
+    }
+    .hero-button {
+      margin-top: 100px;
+    }
+    .about-text {
+      width: 70%;
     }
   }
-  /*  */
-  .about-text {
-    width: 90%;
-  }
-  /*  */
-  .card-container {
-    justify-content: center;
-  }
-  .cards {
-    width: 80%;
-  }
-}
-@media screen and (min-width: 773px) and (max-width: 800px) {
-  .navbar h2 {
-    display: none;
-  }
-  .navbar ul {
-    width: 65%;
-  }
-  /*  */
-  .hero-img {
-    display: none;
-  }
-  .hero {
-    height: calc(100vh - 250px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 0px;
-  }
-  .hero-text {
-    margin-left: 0;
-  }
-  .hero-button {
-    margin-top: 100px;
-  }
-
-  .header {
-    &::after,
-    &::before {
-      position: absolute;
-
-      content: "";
-      width: 30%;
-      transform: translate(0, 1200%);
+  
+  @media screen and (max-width: 1000px) {
+    .navbar h2 {
+      display: none;
+    }
+    .navbar ul {
+      width: 65%;
+    }
+    .hero-img {
+      display: none;
+    }
+    .hero {
+      height: calc(100vh - 250px);
+      justify-content: center;
+      margin-left: 0;
+    }
+    .about-text {
+      width: 90%;
+    }
+    .card-container {
+      justify-content: center;
+    }
+    .cards {
+      width: 80%;
     }
   }
-  /*  */
-  .about-text {
-    width: 90%;
+  
+  @media screen and (max-width: 773px) {
+    .hero-button {
+      width: 300px;
+      button {
+        font-size: 18px;
+        padding: 5px 50px;
+      }
+    }
+    .hire {
+      margin-bottom: 10px;
+    }
+    .about-text {
+      width: 90%;
+    }
+    .cards {
+      width: 90%;
+    }
+    .contact-details {
+        display: none;
+      }
+      form {
+        width: 100%; /* Formun tam genişlikdə olması */
+        max-width: 600px; /* Maksimum genişlik təyin etmək istəyirsinizsə */
+        margin: 0 auto; /* Ortada yerləşdirir */
+        padding: 20px; /* İç boşluq əlavə edir */
+        box-sizing: border-box; /* Padding əlavə edildikdə ölçü pozulmasın */
+      }
+      
   }
-  /*  */
-  .card-container {
-    justify-content: center;
-  }
-  .cards {
-    width: 85%;
-  }
-  #about {
-    margin-top: 150px;
-  }
-}
-@media screen and (min-width: 680px) and (max-width: 773px) {
-  .navbar h2 {
-    display: none;
-  }
-  .navbar ul {
-    width: 65%;
-  }
-  /*  */
-  .hero-img {
-    display: none;
-  }
-  .hero {
-    height: calc(100vh - 250px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 0px;
-  }
-  .hero-text {
-    margin-left: 0;
-  }
-  .hero-button {
-    display: flex;
-    width: 300px;
-    margin-top: 100px;
-  }
-  .hero-button button {
-    font-size: 18px;
-    padding: 5px 50px;
-  }
-  .hire {
-    margin-bottom: 10px;
-  }
-
-  .header {
-    &::after,
-    &::before {
-      position: absolute;
-
-      content: "";
-      width: 26%;
-      transform: translate(0, 1200%);
+  
+  @media screen and (max-width: 530px) {
+    .navbar ul {
+      width: 85%;
+    }
+    .hero-text {
+      width: 100%;
+    }
+    .hero-button {
+      margin-top: 100px;
+    }
+    .hire {
+      margin-bottom: 15px;
+    }
+    .cards {
+      width: 90%;
+      height: 720px;
     }
   }
-  /*  */
-  .about-text {
-    width: 90%;
-  }
-  /*  */
-  .card-container {
-    justify-content: center;
-  }
-  .cards {
-    width: 90%;
-  }
-  #about {
-    margin-top: 120px;
-  }
-  .skill-container {
-    width: 80%;
-  }
-}
-@media screen and (min-width: 530px) and (max-width: 680px) {
-  .navbar h2 {
-    display: none;
-  }
-  .navbar ul {
-    width: 69%;
-  }
-  /*  */
-  .hero-img {
-    display: none;
-  }
-  .hero {
-    height: calc(100vh - 250px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 0px;
-  }
-
-  .hero-text {
-    margin-left: 0;
-  }
-  .hero-button {
-    margin-top: 100px;
-  }
-  .hire {
-    margin-bottom: 15px;
-  }
-
-  .header {
-    &::after,
-    &::before {
-      position: absolute;
-
-      content: "";
-      width: 24%;
-      transform: translate(0, 1200%);
+  
+  @media screen and (max-width: 420px) {
+    .navbar ul {
+      width: 90%;
+    }
+    .cards {
+      width: 95%;
+      height: 790px;
     }
   }
-  /*  */
-  .about-text {
-    width: 100%;
-  }
-  /*  */
-  .card-container {
-    justify-content: center;
-  }
-  .cards {
-    width: 90%;
-  }
-
-  #about {
-    margin-top: 130px;
-  }
-  .skill-container {
-    width: 100%;
-  }
-}
-@media screen and (min-width: 460px) and (max-width: 530px) {
-  .navbar h2 {
-    display: none;
-  }
-  .navbar ul {
-    width: 85%;
-  }
-  /*  */
-  .hero-img {
-    display: none;
-  }
-  .hero {
-    height: calc(100vh - 250px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 0px;
-  }
-
-  .hero-text {
-    margin-left: 0;
-    width: 100%;
-  }
-  .hero-button {
-    margin-top: 100px;
-  }
-  .hire {
-    margin-bottom: 15px;
-  }
-
-  .header {
-    &::after,
-    &::before {
-      position: absolute;
-
-      content: "";
-      width: 18%;
-      transform: translate(0, 1200%);
-    }
-  }
-  /*  */
-  .about-text {
-    width: 90%;
-  }
-  /*  */
-  .card-container {
-    justify-content: center;
-  }
-  .cards {
-    width: 90%;
-  }
-  .cards {
-    height: 680px;
-  }
-  #about {
-    margin-top: 200px;
-  }
-  .skill-container {
-    width: 100%;
-  }
-}
-@media screen and (min-width: 420px) and (max-width: 460px) {
-  .navbar h2 {
-    display: none;
-  }
-  .navbar ul {
-    width: 85%;
-  }
-  /*  */
-  .hero-img {
-    display: none;
-  }
-  .hero {
-    height: calc(100vh - 250px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 0px;
-  }
-
-  .hero-text {
-    width: 100%;
-    margin-left: 0;
-  }
-  .hero-button {
-    margin-top: 100px;
-  }
-  .hire {
-    margin-bottom: 15px;
-  }
-
-  .header {
-    &::after,
-    &::before {
-      position: absolute;
-
-      content: "";
-      width: 15%;
-      transform: translate(0, 1200%);
-    }
-  }
-  /*  */
-  .about-text {
-    width: 100%;
-  }
-  /*  */
-  .card-container {
-    justify-content: center;
-  }
-  .cards {
-    width: 90%;
-  }
-  .cards {
-    height: 720px;
-  }
-  #about {
-    margin-top: 200px;
-  }
-  .skill-container {
-    width: 100%;
-  }
-}
-@media screen and (max-width: 420px) {
-  .navbar h2 {
-    display: none;
-  }
-  .navbar ul {
-    width: 90%;
-  }
-  /*  */
-  .hero-img {
-    display: none;
-  }
-  .hero {
-    height: calc(100vh - 250px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 0px;
-  }
-
-  .hero-text {
-    width: 100%;
-    margin-left: 0;
-  }
-  .hero-button {
-    margin-top: 100px;
-  }
-  .hire {
-    margin-bottom: 15px;
-  }
-
-  .header {
-    &::after,
-    &::before {
-      position: absolute;
-
-      content: "";
-      width: 10%;
-      transform: translate(0, 1200%);
-    }
-  }
-  /*  */
-  .about-text {
-    width: 100%;
-  }
-  /*  */
-  .card-container {
-    justify-content: center;
-  }
-  .cards {
-    width: 95%;
-  }
-  .cards {
-    height: 790px;
-  }
-  #about {
-    margin-top: 200px;
-  }
-  .skill-container {
-    width: 100%;
-  }
-}
+  
