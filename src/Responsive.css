@@ -88,6 +88,9 @@
       width: 90%;
       height: 720px;
     }
+    .contact-details {
+        display: none;
+      }
   }
   
   @media screen and (max-width: 420px) {
@@ -98,5 +101,8 @@
       width: 95%;
       height: 790px;
     }
+    .contact-details {
+        display: none;
+      }
   }
   
