@@ -19,16 +19,16 @@ function Skills() {
         </div>
       </div>
       <div className="skill-container">
-        <FaHtml5 />
-        <FaCss3Alt />
-        <IoLogoJavascript />
-        <FaReact />
-        <SiRedux />
-        <FaGithub />
-        <FaGitSquare />
-        <FaBootstrap />
-        <FaPython />
-        <FaJava />
+        <FaHtml5  className="i"  />
+        <FaCss3Alt className="i"  />
+        <IoLogoJavascript className="i"  />
+        <FaReact  className="i" />
+        <SiRedux  className="i" />
+        <FaGithub  className="i" />
+        <FaGitSquare  className="i" />
+        <FaBootstrap  className="i" />
+        <FaPython  className="i" />
+        <FaJava className="i"  />
       </div>
     </div>
   );
