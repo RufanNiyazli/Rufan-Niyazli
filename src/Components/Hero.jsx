@@ -3,9 +3,9 @@ import home from "./transparent.png";
 
 function Hero() {
   const handleDownload = () => {
-    const link = document.createElement('a');
-    link.download = 'Rufan_Niyazli_CV.pdf'; // File name for download
-    link.href = '/RufanCV.pdf'; // File in public folder, no import required
+    const link = document.createElement("a");
+    link.download = "Rufan_Niyazli_CV.pdf"; // File name for download
+    link.href = "/RufanCV.pdf"; // File in public folder, no import required
     link.click();
   };
 
@@ -21,7 +21,7 @@ function Hero() {
           <div className="hero-button">
             <button className="hire">Hire me</button>
             <button className="cv" onClick={handleDownload}>
-              Download CV
+              CV
             </button>
           </div>
         </div>
